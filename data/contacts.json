@@ -1,0 +1,8 @@
+[
+  { "name": "Police / Emergency", "type": "emergency", "number": "112", "state": "All India", "note": "Police, fire, ambulance" },
+  { "name": "NALSA Legal Aid Helpline", "type": "legal-aid", "number": "15100", "state": "All India", "note": "Free legal services guidance" },
+  { "name": "Women Helpline", "type": "emergency", "number": "181", "state": "All India", "note": "Support for women in distress" },
+  { "name": "Cyber Crime Helpline", "type": "emergency", "number": "1930", "state": "All India", "note": "Report online financial fraud" },
+  { "name": "Childline", "type": "emergency", "number": "1098", "state": "All India", "note": "Help for children in need" },
+  { "name": "National Consumer Helpline", "type": "consumer", "number": "1915", "state": "All India", "note": "Consumer complaints" }
+]

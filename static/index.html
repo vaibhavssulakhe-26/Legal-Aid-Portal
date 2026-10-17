@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal Aid & Rights Awareness Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Know Your Rights</h1>
+    <p>Describe your problem in your own words. Get simple steps and free legal help.</p>
+  </header>
+
+  <main>
+    <section class="search-box">
+      <input id="searchInput" type="text" autocomplete="off"
+             placeholder="Describe your problem, e.g. landlord not returning my deposit">
+      <button id="searchBtn">Ask</button>
+    </section>
+
+    <section class="opts">
+      <select id="stateFilter"><option value="">Select your state / UT</option></select>
+      <label><input type="checkbox" id="webToggle"> Include latest info from the web</label>
+    </section>
+
+    <section id="chips" class="chips"></section>
+
+    <section id="answerBox" class="answerbox" style="display:none">
+      <div id="matched" class="matched"></div>
+      <div id="answer" class="answer"></div>
+      <div id="helpbar"></div>
+      <div id="stateInfo"></div>
+      <div id="sources"></div>
+    </section>
+
+    <section class="contacts">
+      <h2>National Helplines</h2>
+      <div id="contactList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Disclaimer:</strong> This portal gives general legal information generated with AI,
+    not legal advice. It can make mistakes, so please confirm with a legal aid office.
+    In an emergency call 112.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

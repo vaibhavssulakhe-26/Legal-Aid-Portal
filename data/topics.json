@@ -1,0 +1,428 @@
+[
+  {
+    "id": "domestic-violence",
+    "title": "Violence or abuse by a partner or family member",
+    "category": "Family & Safety",
+    "tags": [
+      "domestic violence",
+      "abuse",
+      "husband",
+      "wife",
+      "partner",
+      "family",
+      "relative",
+      "dowry",
+      "beating",
+      "in-laws",
+      "harassment",
+      "cruelty"
+    ],
+    "right": "Anyone facing physical violence at home can report it to the police and seek free legal aid, whatever their gender. Women also have extra protection under the Protection of Women from Domestic Violence Act, 2005, which allows protection orders, the right to stay in the shared home, and monetary relief.",
+    "steps": [
+      "If you are in danger right now, call 112. Women can also call the Women Helpline 181.",
+      "Contact the police or your District Legal Services Authority (DLSA) to start a complaint.",
+      "Under the 2005 Act, women can apply to a Magistrate for protection orders. Free lawyers are available through DLSA.",
+      "Keep evidence safe: medical reports, photos, messages, names of witnesses."
+    ],
+    "helplines": [
+      "112",
+      "181",
+      "15100"
+    ]
+  },
+  {
+    "id": "assault-sexual",
+    "title": "Physical or sexual assault, molestation or harassment",
+    "category": "Police",
+    "tags": [
+      "assault",
+      "abuse",
+      "rape",
+      "molest",
+      "sexual",
+      "harass",
+      "attacked",
+      "touched",
+      "beaten",
+      "violence",
+      "stalking"
+    ],
+    "right": "You have the right to file an FIR at any police station, to a free medical examination, to confidentiality of your identity in sexual offence cases, and to free legal aid.",
+    "steps": [
+      "Go to a safe place and call 112 if you need immediate help.",
+      "File a complaint at any police station. You can ask for a woman officer to record a woman's statement.",
+      "Get a medical examination as early as possible and avoid washing or changing clothes if you can.",
+      "Contact DLSA or call 15100 for a free lawyer and support."
+    ],
+    "helplines": [
+      "112",
+      "181",
+      "15100"
+    ]
+  },
+  {
+    "id": "child-abuse",
+    "title": "A child is being abused or harmed",
+    "category": "Children",
+    "tags": [
+      "child",
+      "abuse",
+      "abused",
+      "kid",
+      "minor",
+      "pocso",
+      "molest",
+      "school",
+      "beaten",
+      "neglect"
+    ],
+    "right": "The POCSO Act, 2012 protects children under 18 from sexual abuse. Anyone who knows about such abuse is legally required to report it, and the child's identity is protected.",
+    "steps": [
+      "Call Childline 1098 or the police on 112.",
+      "Do not confront the abuser. Keep the child safe and calm.",
+      "Report to the police. Special procedures exist to make it child-friendly.",
+      "A free lawyer for the child is available through DLSA."
+    ],
+    "helplines": [
+      "1098",
+      "112",
+      "15100"
+    ]
+  },
+  {
+    "id": "missing-child",
+    "title": "A child is lost or missing",
+    "category": "Children",
+    "tags": [
+      "missing",
+      "lost",
+      "child",
+      "kid",
+      "kidnap",
+      "abducted",
+      "separated",
+      "disappeared",
+      "baby",
+      "found"
+    ],
+    "right": "Police are required to register an FIR immediately when a child goes missing, without waiting. If you find a lost child, you should take them to the nearest police station or call Childline.",
+    "steps": [
+      "Call 112 immediately and give the child's name, age, clothing, photo and last seen location.",
+      "Go to the nearest police station and ask for an FIR to be registered right away. Do not accept a delay.",
+      "Call Childline 1098. They coordinate with police and shelters.",
+      "You can also report on the government's missing-child portal (verify the current link on the Ministry of Women and Child Development website).",
+      "If you found a lost child, stay with them in a public place and hand them over to the police or Childline. Do not take them home."
+    ],
+    "helplines": [
+      "112",
+      "1098"
+    ]
+  },
+  {
+    "id": "public-transport-harassment",
+    "title": "Harassment or unwanted touching on a bus, train, metro or in public",
+    "category": "Police",
+    "tags": [
+      "bus",
+      "train",
+      "metro",
+      "public",
+      "transport",
+      "harass",
+      "touching",
+      "groping",
+      "teasing",
+      "stalking",
+      "travel",
+      "molest",
+      "auto",
+      "cab"
+    ],
+    "right": "Touching, staring, following, passing comments or filming someone without consent in public places are criminal offences. You can report them, and you do not need a witness to file a complaint.",
+    "steps": [
+      "Move to a safe, crowded spot. Tell the driver or conductor, or press the help button if the vehicle has one.",
+      "Call 112, or the Women Helpline 181. Many state police also have women's safety apps.",
+      "Note the bus number, route, time and the person's description. Take a photo if it is safe.",
+      "File a complaint at the nearest police station. You can also ask for free legal help through DLSA (15100)."
+    ],
+    "helplines": [
+      "112",
+      "181",
+      "15100"
+    ]
+  },
+  {
+    "id": "fir-refusal",
+    "title": "Police refuse to register my complaint (FIR)",
+    "category": "Police",
+    "tags": [
+      "police",
+      "fir",
+      "complaint",
+      "refuse",
+      "register",
+      "station",
+      "crime",
+      "theft",
+      "stolen"
+    ],
+    "right": "For a serious (cognizable) offence, the police must register an FIR. You can file it at any police station (Zero FIR), and you are entitled to a free copy.",
+    "steps": [
+      "Give your complaint in writing and ask for a receipt or acknowledgement.",
+      "If they still refuse, send the complaint in writing to the Superintendent of Police (SP) of the district.",
+      "You can also approach the Magistrate to direct the police to register the FIR.",
+      "Keep copies of everything you submit."
+    ],
+    "helplines": [
+      "112",
+      "15100"
+    ]
+  },
+  {
+    "id": "arrest-rights",
+    "title": "Rights when arrested or detained by the police",
+    "category": "Police",
+    "tags": [
+      "arrest",
+      "arrested",
+      "custody",
+      "detained",
+      "lockup",
+      "police",
+      "bail",
+      "remand",
+      "jail",
+      "lawyer",
+      "rights"
+    ],
+    "right": "If arrested, you must be told the reason for the arrest, allowed to inform a family member or friend, and produced before a Magistrate within 24 hours. You have the right to a lawyer, and to a free one if you cannot afford it.",
+    "steps": [
+      "Stay calm. Ask clearly why you are being arrested.",
+      "Ask the police to inform a family member, and say you want a lawyer.",
+      "Do not sign any blank or unread papers.",
+      "A family member can contact DLSA (15100) for a free lawyer, who can also apply for bail."
+    ],
+    "helplines": [
+      "15100",
+      "112"
+    ]
+  },
+  {
+    "id": "lost-documents",
+    "title": "Lost phone, wallet or important documents",
+    "category": "Police",
+    "tags": [
+      "lost",
+      "phone",
+      "wallet",
+      "aadhaar",
+      "passport",
+      "document",
+      "documents",
+      "stolen",
+      "mobile",
+      "card",
+      "licence",
+      "license"
+    ],
+    "right": "You can report lost items to the police and obtain a lost report or acknowledgement. This is needed to get duplicates of documents and protects you from misuse.",
+    "steps": [
+      "Report the loss at the nearest police station, or through your state police's online lost-item service if available.",
+      "Block lost SIMs, bank cards and UPI immediately by calling the bank or provider.",
+      "For a lost phone, you can report it on the government's CEIR portal to block the device (verify the current link).",
+      "Use the lost report to apply for duplicate documents, such as Aadhaar, licence or passport."
+    ],
+    "helplines": [
+      "112",
+      "1930"
+    ]
+  },
+  {
+    "id": "cyber-fraud",
+    "title": "Online fraud, UPI scam or money stolen from my account",
+    "category": "Cyber",
+    "tags": [
+      "cyber",
+      "fraud",
+      "scam",
+      "upi",
+      "otp",
+      "bank",
+      "online",
+      "hacked",
+      "phishing",
+      "cheated",
+      "money"
+    ],
+    "right": "Online financial fraud can be reported at once, and quick reporting improves the chance of freezing the money.",
+    "steps": [
+      "Call 1930 immediately and report at cybercrime.gov.in.",
+      "Inform your bank right away and ask them to block the card or account.",
+      "Save screenshots, transaction IDs, phone numbers and links.",
+      "File a police complaint and keep the acknowledgement."
+    ],
+    "helplines": [
+      "1930",
+      "112"
+    ]
+  },
+  {
+    "id": "consumer-complaint",
+    "title": "Defective product or poor service (consumer complaint)",
+    "category": "Consumer",
+    "tags": [
+      "consumer",
+      "refund",
+      "defective",
+      "product",
+      "service",
+      "shop",
+      "online",
+      "cheated",
+      "seller",
+      "warranty"
+    ],
+    "right": "Under the Consumer Protection Act, 2019, you can complain about defective goods, poor service or unfair trade practices.",
+    "steps": [
+      "Collect proof: bill, photos, messages, warranty.",
+      "Send a written complaint to the seller or company and keep a copy.",
+      "Call the National Consumer Helpline 1915 for guidance.",
+      "If unresolved, file a case in the Consumer Commission. This can be done online through the e-Daakhil portal."
+    ],
+    "helplines": [
+      "1915"
+    ]
+  },
+  {
+    "id": "tenant-deposit",
+    "title": "Landlord not returning my security deposit",
+    "category": "Housing",
+    "tags": [
+      "landlord",
+      "tenant",
+      "rent",
+      "deposit",
+      "house",
+      "flat",
+      "owner",
+      "evict",
+      "eviction",
+      "agreement"
+    ],
+    "right": "A landlord can generally deduct only for unpaid rent or damage beyond normal wear. Exact rules differ by state, so check your state's rent law and your rent agreement.",
+    "steps": [
+      "Ask for the deposit in writing and keep proof of the request.",
+      "Send a formal legal notice. DLSA can help you draft one for free if you are eligible.",
+      "If there is still no response, approach the rent authority or civil court in your area.",
+      "Keep the rent agreement, payment receipts and move-out photos."
+    ],
+    "helplines": [
+      "15100"
+    ]
+  },
+  {
+    "id": "unpaid-wages",
+    "title": "Employer not paying salary or wages",
+    "category": "Work",
+    "tags": [
+      "salary",
+      "wages",
+      "employer",
+      "boss",
+      "company",
+      "job",
+      "work",
+      "unpaid",
+      "labour",
+      "fired",
+      "terminated"
+    ],
+    "right": "Workers are legally entitled to timely wages, and employers cannot make arbitrary deductions or withhold pay.",
+    "steps": [
+      "Write to your employer asking for the pending amount, and keep a copy.",
+      "Collect proof: appointment letter, payslips, bank statements, attendance, messages.",
+      "File a complaint with your state Labour Department or Labour Commissioner's office.",
+      "Contact DLSA for free legal help if you cannot afford a lawyer."
+    ],
+    "helplines": [
+      "15100"
+    ]
+  },
+  {
+    "id": "rti",
+    "title": "Get information from a government office (RTI)",
+    "category": "Government",
+    "tags": [
+      "rti",
+      "information",
+      "government",
+      "office",
+      "officer",
+      "department",
+      "document",
+      "application",
+      "delay"
+    ],
+    "right": "The Right to Information Act, 2005 lets any citizen request records from public authorities. A reply is due within 30 days.",
+    "steps": [
+      "Write an application to the office's Public Information Officer (PIO), stating exactly what you want.",
+      "Pay the small application fee. Central government requests can be filed online at rtionline.gov.in.",
+      "If there is no reply or the reply is unsatisfactory, file a first appeal.",
+      "After that, you can approach the Information Commission."
+    ],
+    "helplines": []
+  },
+  {
+    "id": "free-legal-aid",
+    "title": "I cannot afford a lawyer",
+    "category": "Legal Aid",
+    "tags": [
+      "lawyer",
+      "afford",
+      "free",
+      "legal aid",
+      "money",
+      "poor",
+      "court",
+      "advocate",
+      "case"
+    ],
+    "right": "Certain groups are entitled to a free lawyer under the Legal Services Authorities Act, 1987, including women, children, SC/ST members, persons in custody, persons with disabilities, and people below the income limit set by their state.",
+    "steps": [
+      "Contact your District Legal Services Authority (DLSA), usually in the district court complex.",
+      "Or call the NALSA helpline 15100.",
+      "Carry ID proof and any case documents you have.",
+      "Ask for a panel lawyer to be assigned to you at no cost."
+    ],
+    "helplines": [
+      "15100"
+    ]
+  },
+  {
+    "id": "death-certificate",
+    "title": "Getting a death certificate or registering a birth or death",
+    "category": "Government",
+    "tags": [
+      "death",
+      "certificate",
+      "died",
+      "deceased",
+      "birth",
+      "registration",
+      "registrar",
+      "municipality",
+      "panchayat",
+      "late registration"
+    ],
+    "right": "Under the Registration of Births and Deaths Act, 1969, every death must be reported to the local registrar, usually within 21 days. The certificate is free or low-cost, and late registration is allowed with extra steps.",
+    "steps": [
+      "Collect the hospital's death report or a doctor's certificate, the deceased person's ID, and your own ID.",
+      "Apply at the municipal office, gram panchayat or health office for the area where the death happened. Many states also accept applications online through the Civil Registration System portal (verify the current link).",
+      "If more than 21 days have passed, late registration is still possible. After 30 days a late fee applies, and after one year a magistrate's order is usually needed.",
+      "If the office refuses or delays, write to the district registrar, or contact DLSA (15100) for free help."
+    ],
+    "helplines": [
+      "15100"
+    ]
+  }
+]
