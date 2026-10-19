@@ -4,7 +4,7 @@ header { background: #1e3a5f; color: #fff; text-align: center; padding: 40px 16p
 main { max-width: 800px; margin: 0 auto; padding: 16px; }
 .search-box { display: flex; gap: 8px; margin-top: -24px; }
 .search-box input { flex: 1; padding: 14px; font-size: 16px; border: 1px solid #cbd2d9; border-radius: 8px; }
-button { cursor: pointer; border: none; border-radius: 8px; padding: 12px 20px; background: #2f6fb3; color: #fff; font-size: 15px; }
+button { cursor: pointer; border: none; border-radius: 8px; padding: 12px 20px; background: #29598d; color: #fff; font-size: 15px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
 .chip { background: #e4ecf5; color: #1e3a5f; padding: 8px 14px; }
 .card { background: #fff; padding: 20px; border-radius: 10px; margin: 12px 0; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
