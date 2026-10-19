@@ -121,3 +121,22 @@ async function init() {
 document.getElementById("searchBtn").addEventListener("click", () => ask());
 inputEl.addEventListener("keydown", e => { if (e.key === "Enter") ask(); });
 init();
+
+/* ---------- Theme toggle (light / dark) ---------- */
+const THEME_KEY = "legal-portal-theme";
+const themeBtn = document.getElementById("themeToggle");
+function applyTheme(t) {
+  document.documentElement.setAttribute("data-theme", t);
+  if (themeBtn) themeBtn.title = t === "dark" ? "Switch to light theme" : "Switch to dark theme";
+  try { localStorage.setItem(THEME_KEY, t); } catch (e) {}
+}
+if (themeBtn) {
+  themeBtn.addEventListener("click", () =>
+    applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark"));
+}
+let savedTheme = "light";
+try {
+  const v = localStorage.getItem(THEME_KEY);
+  if (v === "dark" || v === "darkblue") savedTheme = "dark";
+} catch (e) {}
+applyTheme(savedTheme);

@@ -98,7 +98,7 @@ def ask():
         try:
             qv = embed([f"search_query: {q}"])[0]
             scores = topic_vectors @ qv
-            order = np.argsort(-scores)[:3]
+            order = np.argsort(-scores)[:2]
             print(f"q={q!r} top={[(topics[i]['id'], round(float(scores[i]), 2)) for i in order]}")
             matched = [topics[i] for i in order if scores[i] >= CONTEXT_MIN and scores[i] >= scores[order[0]] - 0.04]
         except requests.exceptions.RequestException:
@@ -137,7 +137,7 @@ def ask():
             "messages": [{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": user_msg}],
             "stream": True,
             "keep_alive": "30m",
-            "options": {"temperature": 0.2, "num_ctx": 4096},
+            "options": {"temperature": 0.2, "num_ctx": 2048, "num_predict": 320},
         }
         try:
             with requests.post(f"{OLLAMA}/api/chat", json=payload, stream=True, timeout=300) as r:
@@ -169,6 +169,24 @@ def get_contacts():
 def get_states():
     return jsonify(states)
 
+import threading
+
+
+def warm_up():
+    """Load the chat model into memory at startup so the first user is not slow."""
+    try:
+        requests.post(f"{OLLAMA}/api/chat", json={
+            "model": CHAT_MODEL,
+            "messages": [{"role": "user", "content": "hi"}],
+            "stream": False, "keep_alive": "30m",
+            "options": {"num_predict": 1, "num_ctx": 2048},
+        }, timeout=300)
+        print("Chat model warmed up.")
+    except Exception as e:
+        print("warm-up skipped:", e)
+
+
+threading.Thread(target=warm_up, daemon=True).start()
 
 if __name__ == "__main__":
     app.run(debug=False, port=5000)
